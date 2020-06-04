@@ -59,7 +59,7 @@ const getUserChoice = (userInput) =>{
   }
   
   const playGame = () =>{
-    var userChoice = getUserChoice('paper')
+    var userChoice = getUserChoice('paper')//type in your input here
     var computerChoice = getComputerChoice()
     console.log(userChoice, computerChoice)
     console.log(determineWinner(userChoice, computerChoice))
